@@ -13,9 +13,9 @@ I also installed the Chrome extension [aXe](https://chrome.google.com/webstore/d
 
 * Restaurant Reviews App Walkthrough, Part 2 – [Responsiveness](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-2-responsiveness/) – Matthew Cranford
 
-* Restaurant Reviews App Walkthrough, Part 3 – [Accessibility](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/) – Matthew Cranford]
+* Restaurant Reviews App Walkthrough, Part 3 – [Accessibility](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/) – Matthew Cranford
 
-* Restaurant Reviews App Walkthrough, Part 4 – [Service Workers](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/) – Matthew Cranford]
+* Restaurant Reviews App Walkthrough, Part 4 – [Service Workers](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-4-service-workers/) – Matthew Cranford
 
 
 ## Leaflet.js and Mapbox:
