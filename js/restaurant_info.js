@@ -1,6 +1,17 @@
 let restaurant;
 var newMap;
 
+/*Register Service Worker*/
+if ('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/sw.js')
+  .then(reg =>{
+    console.log("Service worker registered " + reg.scope)
+  })
+  .catch(error => {
+    console.log("Service worker registation failed:" + error);
+  });
+}
+
 /**
  * Initialize map as soon as the page is loaded.
  */
@@ -87,7 +98,8 @@ fillRestaurantHTML = (restaurant = self.restaurant) => {
   address.innerHTML = restaurant.address;
 
   const image = document.getElementById('restaurant-img');
-  image.className = 'restaurant-img'
+  image.className = 'restaurant-img';
+  image.alt = 'Image for ' + restaurant.name;
   image.src = DBHelper.imageUrlForRestaurant(restaurant);
 
   const cuisine = document.getElementById('restaurant-cuisine');
